@@ -13,5 +13,16 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["react", "@typescript-eslint"],
-  rules: {},
+  rules: {
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": [1, { extensions: [".ts", ".tsx"] }],
+    "import/extensions": [
+      "2",
+      "ignorePackages",
+      {
+        ts: "never",
+        tsx: "never",
+      },
+    ],
+  },
 };
