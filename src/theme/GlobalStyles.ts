@@ -8,8 +8,7 @@ const GlobalStyle = createGlobalStyle`
     height: 100%;
 
     background-color: #FFFFF4;
-    opacity: 0.8;
-    background-image: radial-gradient(#000000 0.5px, #f9f9f9 0.5px);
+    background-image: radial-gradient(#000000 0.5px, #FFFFF4 0.5px);
     background-size: 10px 10px;
 
     font-family: 'Poppins', sans-serif;
