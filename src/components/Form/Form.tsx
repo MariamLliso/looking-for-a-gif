@@ -1,10 +1,10 @@
 import { SyntheticEvent, useState } from "react";
-import { inputText } from "../../interfaces/searchInterface";
+import { IInputText } from "../../interfaces/gifInterfaces";
 import FormStyle from "./FormStyle";
 
 const Form = (): JSX.Element => {
-  const initialData: inputText = "";
-  const [formData, setFormData] = useState<inputText>(initialData);
+  const initialData: IInputText = "";
+  const [formData, setFormData] = useState<IInputText>(initialData);
 
   const onChangeData = (event: SyntheticEvent) => {
     event.preventDefault();
