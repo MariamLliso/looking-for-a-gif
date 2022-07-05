@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 const FormStyle = styled.div`
+  margin-bottom: 60px;
+
   .search-form {
     display: flex;
 
